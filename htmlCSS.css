@@ -1,0 +1,113 @@
+
+.navbar{
+  background-color: #2c3e50;
+}
+
+
+
+
+/*////////////////////////////Bootstrap above */
+.top-navigation {
+  position: fixed;
+  color: white;
+  letter-spacing: 0.03em;
+  font-size: 20px;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  /* To make the Nav bar stay at the very top*/ }
+
+.top-navigation > .content {
+  height: 4rem;
+  }
+
+.top-navigation .links {
+  position: relative;
+  margin-top: 1rem;
+
+}
+/*/////*/
+.content{
+  display: flex;
+}
+
+.links{
+  margin: auto;
+  border: 1px solid red;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+}
+
+.child{
+  flex: 1;
+  text-align: center;
+}
+/*///////*/
+
+
+.top-navigation .links li {
+  display: inline-block;
+   }
+
+/* To make the hover color effect and cursor icon on Nav*/
+
+
+.jumbotron{
+  /*display: flex;*/
+  background: url(main-bg.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  display: center;
+  height: 930px;
+  display: flex;
+}
+
+#centerText{
+  margin: auto;
+  text-align: center;
+  font-size: 10.5em;
+  line-height: 1px;
+  color: white;
+  font-weight: bold;
+
+}
+
+@media (max-width: 600px)  {
+  #content{
+    display: none;
+  }
+}
+
+.containerHamburger{
+  border: 1px solid red;
+  position: relative;
+  display: inline-block;
+  left: 1em;
+  bottom: 1em;
+  font-size:2em;
+  top: 1px;
+
+}
+@media (min-width: 599px){
+  .containerHamburger{
+    display: none;
+  }
+}
+
+
+
+
+#test {
+    position: relative;
+    top: 151px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 60px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
